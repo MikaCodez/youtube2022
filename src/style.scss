@@ -62,33 +62,40 @@
 
         //NAVBAR
 
-        .navbar{
-            .container{
+        .navbar {
+            width: 100%; /* Ensure navbar spans the entire width */
+            background-color: #ffffff; /* Example background color */
+            /* Other navbar styles */
+        
+            .container {
                 padding: 10px 0px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-
-                .logo{
-                    img{
+                max-width: 1200px; /* Optionally limit the maximum width of the navbar */
+        
+                .logo {
+                    img {
                         width: 120px;
                     }
                 }
-                .links{
+        
+                .links {
                     display: flex;
                     gap: 10px;
                     align-items: center;
-
-                    h6{
+        
+                    h6 {
                         font-size: 16px;
                         font-weight: 300;
                     }
-
-                    span{
+        
+                    span {
                         cursor: pointer;
                     }
                 }
-                .login{
+        
+                .login {
                     background-color: orange;
                     width: 50px;
                     height: 50px;
@@ -98,15 +105,16 @@
                     justify-content: center;
                     font-weight: 300;
                     border: 1px solid orange;
-
-                    &:hover{
+        
+                    &:hover {
                         color: black;
                         background-color: orange;
-                        border: 1px solid black
+                        border: 1px solid black;
                     }
                 }
             }
         }
+        
 
         //FOOTER
 

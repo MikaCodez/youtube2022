@@ -13,7 +13,7 @@ const Home = () => {
                 "american",
                 "crime"
             ],
-            "reactions": 2
+            
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@ const Home = () => {
                 "fiction",
                 "english"
             ],
-            "reactions": 2
+            
         },
         {
             "id": 3,
@@ -37,7 +37,6 @@ const Home = () => {
                 "history",
                 "french"
             ],
-            "reactions": 5
         },
         {
             "id": 4,
@@ -49,7 +48,7 @@ const Home = () => {
                 "english",
                 "american"
             ],
-            "reactions": 1
+            
         },
         {
             "id": 5,
@@ -61,7 +60,7 @@ const Home = () => {
                 "mystery",
                 "love"
             ],
-            "reactions": 2
+            
         }
     ];
 
