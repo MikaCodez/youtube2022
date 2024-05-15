@@ -12,6 +12,7 @@ const Register = () => {
             <button>Register</button>
             <p>This is an error!</p>
             <span>HAVE A MEMBERSHIP? Login here <Link to="/login">Login</Link>
+            <Link to={"/home"}>Home</Link>
             </span>
         </form>
         </div>
